@@ -29,6 +29,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+.book-section {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 1em;
+}
+
+.book-images {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-images img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.book-text {
+  flex: 1;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -189,7 +215,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #333232;
+			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -253,7 +279,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #333232;
+		border-left: solid 4px #ffffff;
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
